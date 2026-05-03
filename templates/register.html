@@ -1,0 +1,80 @@
+{% extends "base.html" %}
+
+
+{% block content %}
+    <h1 class="navbar navbar-expand-lg bg bg-dark text-white">This is Register page</h1>
+   <div class="container vh-100 d-flex justify-content-center align-items-center">
+
+    <div class="card shadow-lg p-5 rounded-4" style="width: 500px;">
+
+        <div class="card-body">
+
+            <h1 class="text-center fw-bold mb-5">
+                Register
+            </h1>
+
+            <form>
+
+                <div class="mb-4">
+                    <label class="form-label fs-5">
+                        Username
+                    </label>
+
+                    <input
+                        type="text"
+                        class="form-control form-control-lg"
+                        placeholder="Enter username"
+                    >
+                </div>
+
+                <div class="mb-4">
+                    <label class="form-label fs-5">
+                        Email
+                    </label>
+
+                    <input
+                        type="email"
+                        class="form-control form-control-lg"
+                        placeholder="Enter email"
+                    >
+                </div>
+
+                <div class="mb-4">
+                    <label class="form-label fs-5">
+                        Password
+                    </label>
+
+                    <input
+                        type="password"
+                        class="form-control form-control-lg"
+                        placeholder="Create password"
+                    >
+                </div>
+
+                <div class="mb-4">
+                    <label class="form-label fs-5">
+                        Confirm Password
+                    </label>
+
+                    <input
+                        type="password"
+                        class="form-control form-control-lg"
+                        placeholder="Confirm password"
+                    >
+                </div>
+
+                <button class="btn btn-success btn-lg w-100 mt-3">
+                    Register
+                </button>
+
+            </form>
+
+        </div>
+
+    </div>
+
+</div>
+{% endblock %}
+
+
+
